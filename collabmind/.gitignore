@@ -46,3 +46,8 @@ credentials.json
 Thumbs.db
 *.swp
 *.swo
+
+# SQLite Database
+*.db
+*.sqlite3
+
