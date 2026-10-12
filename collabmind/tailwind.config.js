@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          50: "#eef2ff",
+          100: "#e0e7ff",
+          200: "#c7d2fe",
+          300: "#a5b4fc",
+          400: "#818cf8",
+          500: "#6366f1",
+          600: "#4f46e5",
+          700: "#4338ca",
+          800: "#3730a3",
+          900: "#312e81",
+          950: "#090d16",
+        },
+        chat: {
+          bg: "#0b141a",
+          panel: "#111b21",
+          sidebar: "#111b21",
+          card: "#202c33",
+          hover: "#202c33",
+          active: "#2a3942",
+          border: "#2a3942",
+          incoming: "#202c33",
+          outgoing: "#005c4b",
+          outgoingBorder: "#026c59",
+          text: "#e9edef",
+          muted: "#8696a0",
+          icon: "#aebac1",
+          green: "#00a884",
+          online: "#25d366",
+          blue: "#53bdeb",
+          ai: "#8b7cff",
+        },
+        wa: {
+          app: "#0B141A",
+          sidebar: "#111B21",
+          surface: "#202C33",
+          surfaceHover: "#2A3942",
+          bubbleIn: "#202C33",
+          bubbleOut: "#005C4B",
+          textPrimary: "#E9EDEF",
+          textSecondary: "#8696A0",
+          border: "#2A3942",
+          borderDark: "#222E35",
+          green: "#00A884",
+          greenLight: "#25D366",
+          blue: "#53BDEB",
+          ai: "#8B7CFF",
+        }
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+}
